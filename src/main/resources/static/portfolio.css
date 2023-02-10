@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial;
+    background-color:  lightgray;
+}
+
+main {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+#wrapper-div {
+    width: 80%;
+    margin: auto;
+    background-color:  lightgray;
+}
+
+header {
+    width: 100%;
+    min-height: 100px;
+    text-align: center;
+    font-weight: lighter;
+    line-height: 100px;
+    margin-bottom: 10px;
+    background-color:  lightgray;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+hr.dotted {
+    border-top: 3px dashed;
+    color: #5A86AD;
+}
+
+#main-div {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#sidebar-div {
+    background-color: #5A86AD;
+    width: 25%;
+    font-size: medium;
+    float: left;
+    text-align: left;
+    padding-right: 20px;
+}
+
+#bodyarea-div {
+    width: 75%;
+    float: right;
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer {
+    width: 100%;
+    min-height: 50px;
+    background-color: #5A86AD;
+    text-align: center;
+    line-height: 50px;
+    font-weight: lighter;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5A86AD;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: lower-latin;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: flex;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
+}
+
